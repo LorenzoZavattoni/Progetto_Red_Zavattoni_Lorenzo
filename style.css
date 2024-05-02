@@ -1,0 +1,203 @@
+:root{
+    --darkred: darkred; 
+    --rosino: #C67F7F; 
+    --grigino: #ececec;
+}
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+h1, h2, h3{
+    color: var(--darkred);
+    font-family: 'Nova Square', sans-serif;
+}
+h4, h5, h6{
+    color: var(--darkred);
+}
+   
+h1{
+    letter-spacing: 35px;
+    font-size: 70px;
+}
+h6{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+cite{
+    color: rgb(128, 128, 128);
+    font-weight: 600;
+    position: relative;
+}
+.scritta-grigia{
+    color: rgb(128, 128, 128);
+}
+.img-logo{
+    width: 170px;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    height: 120vh;
+    background: url(./media/mountains2.png), linear-gradient(white, #c67f7f2e), url(./media/switzerland-862870_1920.jpg);
+    background-size: contain, cover, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+footer{
+    color: white;
+}
+
+.sfondo-grigio{
+    background-color: var(--grigino);
+}
+.titolo-custom{
+    padding-top: 45vh;
+}
+.padding_bottom{
+    padding-bottom: 100px;
+}
+.padding_bottom_sezione3{
+    padding-bottom: 400px;
+}
+.virgolette-bold{
+    color: var(--darkred);
+    font-size: 50px;
+    position: absolute;
+    display: flex;
+    top: -13px;
+    left: -8px;
+}
+.virgolette-bold-basse{
+    color: var(--darkred);
+    font-size: 50px;
+    position: absolute;
+    display: flex;
+    right: 100px;
+    bottom: -10px;
+    
+}
+.icona-rossa{
+    color: var(--darkred);
+    font-size: 50px;
+}
+.icona-rossa-fa{
+    color: var(--darkred);
+    font-size: 50px;
+    margin-bottom: 23px;
+}
+.righine{
+    height: 5px;
+    width: 200px;
+    background-color: var(--darkred);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.righine::after{
+    content: "";
+    height: 14px;
+    width: 14px;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid var(--darkred);
+    display: flex;
+    position: relative;
+    bottom: 5px;
+    left: 92px;
+}
+.riga-timeline{
+    height: 200px;
+    border-right: 1px solid var(--darkred);
+    background-color: var(--darkred);
+    border-radius: 10px;
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    width: 3px;
+}
+.riga-timeline::after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid var(--darkred);
+    padding: 5px;
+    position: relative;
+    left: -6px;
+    top: -2px;
+}
+.ultima-riga-timeline{
+    height: 150px;
+    border-right: 1px solid var(--darkred);
+    background-color: var(--darkred);
+    border-radius: 10px;
+    padding: 1px;
+    display: flex;
+    position: absolute;
+    width: 3px;
+}
+.ultima-riga-timeline::after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid var(--darkred);
+    padding: 5px;
+    position: relative;
+    left: -6px;
+    top: -2px;
+}
+.bottone{
+    background-color: var(--darkred);
+    color: white;
+    border: 0px;
+}
+.margine-bottone{
+    margin-bottom: 290px;
+}
+.alberi-bianchi{
+    background-image: url(./media/trees2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.alberi-grigi{
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.alberi-rossi{
+    background-image: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.titolo-sezione3{
+    padding-top: 100px;
+}
+.img-cerchietti{
+    height: 130px;
+    width: 130px;
+    border: 2px solid var(--darkred);
+}
+.img-cerchi{
+    height: 195px;
+    width: 195px;
+    border: 2px solid var(--darkred);
+}
+.icona-rossa-piccola{
+    color: var(--darkred);
+}
+.sfondo-rosso{
+    background-color: var(--darkred);
+}
+.titoli-footer{
+    color: white;
+}
+.link-footer{
+    list-style-type: disc;
+}
